@@ -1,7 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import App from "./components/App";
-
 const imageElement = document.getElementById('image');
 const nameElement = document.getElementById('name');
 const ageButton = document.getElementById('age');
@@ -40,6 +36,3 @@ phoneButton.addEventListener('click', _ =>{
    additionalInfoElement.innerText = phone;
 });
 getUserButton.addEventListener('click',renderRandomUser);
-
-
-ReactDOM.render(<App />, document.getElementById("root"));
